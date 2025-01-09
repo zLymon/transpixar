@@ -1,7 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['github.com', 'huggingface.co'],
+  },
+  api: {
+    bodyParser: {
+      sizeLimit: '50mb',
+    },
+  },
+  output: 'export',
+  distDir: 'dist'
 };
 
 export default nextConfig;
