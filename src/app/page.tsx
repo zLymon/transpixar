@@ -56,9 +56,14 @@ export default function Home() {
         {/* Demo Section */}
         <div className="bg-white dark:bg-gray-800 rounded-xl p-8 mb-16">
           <h2 className="text-3xl font-bold mb-8 text-center">TransPixar Showcase</h2>
-          <div className="aspect-video bg-gray-100 dark:bg-gray-900 rounded-lg mb-4">
-            {/* Add demo video here */}
-          </div>
+          <video
+            src="/videos/fire.mp4"
+            controls
+            className="w-full rounded-lg"
+            loop
+            muted
+            playsInline
+          />
         </div>
       </main>
 
