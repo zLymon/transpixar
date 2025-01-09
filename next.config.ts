@@ -9,8 +9,7 @@ const nextConfig: NextConfig = {
       sizeLimit: '50mb',
     },
   },
-  output: 'export',
-  distDir: 'dist'
+  output: 'export'
 };
 
 export default nextConfig;
