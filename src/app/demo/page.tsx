@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export default function Demo() {
   const [isProcessing, setIsProcessing] = useState(false);
-  const [videoUrl, setVideoUrl] = useState('');
+  // const [videoUrl, setVideoUrl] = useState('');
 
   const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -42,7 +42,7 @@ export default function Demo() {
             </div>
           )}
 
-          {videoUrl && (
+          {/* {videoUrl && (
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Processing Result</h3>
               <video
@@ -58,7 +58,7 @@ export default function Demo() {
                 Download Processed Video
               </a>
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

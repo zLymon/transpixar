@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
             TransPixar AI Video Transparency Tool
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-            Create transparent background videos effortlessly with TransPixar's advanced AI technology
+            Create transparent background videos effortlessly with TransPixar&apos;s advanced AI technology
           </p>
           <div className="flex gap-4 justify-center">
             <Link 
